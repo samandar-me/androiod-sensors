@@ -57,6 +57,7 @@ public class FiveActivity extends AppCompatActivity implements SensorEventListen
             counterDetect = (int) (counterDetect + sensorEvent.values[0]);
             textStepDetector.setText(String.valueOf(counterDetect));
 
+
         }
     }
 
